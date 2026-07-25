@@ -136,14 +136,14 @@ body{
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #f6d9de !important; /* Fuerza el fondo rosa */
+    background: #f6d9de !important; 
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 0.95rem;
-    color: #2f4534 !important;      /* <--- Fuerza las letras al verde oscuro de la marca */
+    color: #2f4534 !important;      
     flex-shrink: 0;
 }
 
@@ -564,9 +564,7 @@ main{
     display:none;
 }
 
-/* ---- Botones reutilizables ----
-   No altera la estructura existente; aplica cuando el proyecto ya utiliza
-   botones o clases comunes de acción. */
+/* ---- Botones reutilizables ---- */
 button,
 .btn,
 .button,
@@ -714,10 +712,9 @@ nav.nav{
 }
 
 .sidebar__logo {
-    max-width: 160px; /* Ajusta el tamaño de tu logo si es necesario */
+    max-width: 160px; 
     height: auto;
     object-fit: contain;
-    /* Aplicamos la animación */
     animation: logoEntrance 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
